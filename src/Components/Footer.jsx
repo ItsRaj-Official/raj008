@@ -23,7 +23,7 @@ const Footer = () => {
       </div>
       <p className=" text-center">
         Copyright © ${new Date().getFullYear()} - All right reserved by{" "}
-        <span className=" text-rose-400">Majharul Islam Raj.</span>
+        <span className=" text-rose-400">Mohammad Majharul Islam.</span>
       </p>
     </div>
   );
