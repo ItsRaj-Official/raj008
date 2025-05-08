@@ -17,7 +17,7 @@ const Contact = () => {
       })
       .then(
         () => {
-          toast.success("email send sucessfully!");
+          toast.success("Your email has been sent sucessfully!");
           console.log("SUCCESS!");
         },
         (error) => {
@@ -31,12 +31,12 @@ const Contact = () => {
     <div className=" mt-16 w-full md:max-w-[80%] mx-auto" id="contact">
       <div className=" md:flex justify-between gap-3 border rounded-md p-4">
         <div className=" flex-1 p-5 space-y-2">
-          <h2 className="text-3xl font-bold">Contact</h2>
+          <h2 className="text-3xl font-bold">Contact me</h2>
           <form ref={form} onSubmit={sendEmail}>
             <div>
               <input
                 type="text"
-                placeholder=" Please Enter your Name"
+                placeholder="Enter your name"
                 className=" inputins "
                 name="user_name"
                 required
@@ -46,7 +46,7 @@ const Contact = () => {
             <div>
               <input
                 type="email"
-                placeholder=" Please Enter your Email"
+                placeholder="Enter your email"
                 className=" inputins "
                 name="user_email"
                 required
@@ -56,7 +56,7 @@ const Contact = () => {
             <div>
               <input
                 type="text"
-                placeholder=" Please  your Subject"
+                placeholder="Enter your subject"
                 className=" inputins "
                 name="subject"
                 required
@@ -67,7 +67,7 @@ const Contact = () => {
               <textarea
                 type="text"
                 className="inputins "
-                placeholder="write your message"
+                placeholder="Write your message here"
                 name="message"
                 id=""
                 required
