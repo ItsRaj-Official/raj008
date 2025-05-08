@@ -24,9 +24,9 @@ const Education = () => {
             <h3 className=" text-2xl font-bold">Bachelor of Science</h3>
             <h4 className="">Computer Science and Engineering </h4>
             <p>
-              <b>Result in CGPA-3.31</b>
-              <br />I am currently studying in my fourth year at North Western
-              University.
+              <b>Result in CGPA : 3.31</b>
+              <br />I am currently doing B.Sc. in CSE at North Western
+              University (4th year).
             </p>
           </div>
         </VerticalTimelineElement>
@@ -41,9 +41,8 @@ const Education = () => {
             From the science group
           </h4>
           <p>
-            <b>Result in GPA-A</b>
-            <br /> I passed HSC exam from Khulna Govt. Model School & College in 2017 and 2018
-            academic year.
+            <b>Result in GPA : A</b>
+            <br /> I have passed the HSC exam from Khulna Govt. Model School & College in 2019.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -60,9 +59,8 @@ const Education = () => {
           </h4>
           <p>
             {" "}
-            <b>Result in GPA-A</b>
-            <br />I passed SSC exam from Peoples Jute Mills High School in 2015 and 2016
-            academic year
+            <b>Result in GPA : A</b>
+            <br />I have passed the SSC exam from Peoples Jute Mills High School in 2017.
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
