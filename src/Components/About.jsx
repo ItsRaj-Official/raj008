@@ -53,6 +53,15 @@ const About = () => {
             initial="hidden"
             animate="visible"
           >
+
+            <motion.h4 className=" text -2xl font-bold">
+            Aspiring Machine Learning Engineer | CSE Student at North Western University
+          </motion.h4>
+          <motion.p
+            variants={container(0.6)}
+            initial="hidden"
+            animate="visible"
+            ></motion.p>
             I have experience in Python, Machine Learning, Artificial Intelligence (AI), Deep Learning, C, C++, PHP, JavaScript, and MySQL. As a Computer Science and Engineering student at North Western University, I’m passionate about exploring emerging technologies and continuously improving the quality of my work. I enjoy solving complex problems and contributing to meaningful projects in the tech field.
 
 
